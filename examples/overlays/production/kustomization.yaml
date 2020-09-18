@@ -1,5 +1,4 @@
 namePrefix: production-
-namespace: green-prod
 commonLabels:
   variant: production
   org: acmeCorporation
@@ -7,5 +6,6 @@ commonAnnotations:
   note: Hello, I am production!
 bases:
 - ../../base
+namespace: green-production
 patchesStrategicMerge:
 - deployment.yaml
