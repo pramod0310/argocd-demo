@@ -1,4 +1,5 @@
 namePrefix: production-
+namespace: green-prod
 commonLabels:
   variant: production
   org: acmeCorporation

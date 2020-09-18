@@ -1,4 +1,5 @@
 namePrefix: staging-
+namespace: green-staging
 commonLabels:
   variant: staging
   org: acmeCorporation
