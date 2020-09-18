@@ -8,6 +8,6 @@ resources:
 - namespace.yaml
 bases:
 - ../../base
-namespace: green-staging
+namespace: staging-green
 patchesStrategicMerge:
 - map.yaml

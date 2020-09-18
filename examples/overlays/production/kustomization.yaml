@@ -8,6 +8,6 @@ resources:
 - namespace.yaml
 bases:
 - ../../base
-namespace: green-production
+namespace: production-green
 patchesStrategicMerge:
 - deployment.yaml
