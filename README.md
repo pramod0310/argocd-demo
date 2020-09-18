@@ -1,2 +1,1 @@
-# argocd-demo
-ArgoCD with Kustomize
+# ArgoCD with Kustomize
