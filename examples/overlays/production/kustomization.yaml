@@ -4,6 +4,8 @@ commonLabels:
   org: acmeCorporation
 commonAnnotations:
   note: Hello, I am production!
+resources:
+- namespace.yaml
 bases:
 - ../../base
 namespace: green-production
