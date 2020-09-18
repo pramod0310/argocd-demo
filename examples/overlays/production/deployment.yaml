@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: the-container
-        image: monopole/hello:3
+        image: monopole/hello:2
