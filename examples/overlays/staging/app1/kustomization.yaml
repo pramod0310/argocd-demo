@@ -5,7 +5,7 @@ commonLabels:
 commonAnnotations:
   note: Hello, I am staging!
 bases:
-- ../../base
+- ../../../base/app1
 namespace: staging-green
 patchesStrategicMerge:
 - map.yaml
