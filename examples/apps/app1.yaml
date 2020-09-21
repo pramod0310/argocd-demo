@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     repoURL: 'https://github.com/alexcpn/argocd-demo'
-    path: examples/overlays/production/app1
+    path: examples/overlays/production/
     targetRevision: HEAD
     directory:
       recurse: false
