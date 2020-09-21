@@ -6,6 +6,6 @@ commonAnnotations:
   note: Hello, I am production!
 bases:
 - ../../../base/app1
-namespace: production-green
+#namespace: production-argo-test
 patchesStrategicMerge:
 - deployment.yaml

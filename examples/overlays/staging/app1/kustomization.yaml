@@ -6,6 +6,6 @@ commonAnnotations:
   note: Hello, I am staging!
 bases:
 - ../../../base/app1
-namespace: staging-green
+#namespace: staging-argo-test
 patchesStrategicMerge:
 - map.yaml
