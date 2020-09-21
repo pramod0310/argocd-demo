@@ -4,10 +4,8 @@ commonLabels:
   org: acmeCorporation
 commonAnnotations:
   note: Hello, I am production!
-resources:
-- namespace.yaml
 bases:
-- ../../base
+- ../../../base/app1
 namespace: production-green
 patchesStrategicMerge:
 - deployment.yaml

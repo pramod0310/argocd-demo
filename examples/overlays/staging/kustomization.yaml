@@ -4,8 +4,6 @@ commonLabels:
   org: acmeCorporation
 commonAnnotations:
   note: Hello, I am staging!
-resources:
-- namespace.yaml
 bases:
 - ../../base
 namespace: staging-green
