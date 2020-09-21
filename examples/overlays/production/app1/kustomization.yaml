@@ -5,8 +5,8 @@ commonLabels:
 commonAnnotations:
   note: Hello, I am production!
 bases:
-- ../../../../base/app1
+- ../../../base/app1
 #namespace: production-argo-test
 patchesStrategicMerge:
 - deployment.yaml
-- app1.yaml
+- app.yaml
