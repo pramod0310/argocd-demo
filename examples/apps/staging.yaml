@@ -6,10 +6,10 @@ metadata:
 spec:
   destination:
     namespace: argocd
-    server: 'https://kubernetes.default.svc'
+    server: 'https://10.131.228.112:6443'
   source:
     repoURL: 'https://github.com/alexcpn/argocd-demo'
-    path: examples/overlays/production_working/
+    path: examples/overlays/staging_working/
     targetRevision: HEAD
     directory:
       recurse: false

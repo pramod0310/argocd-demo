@@ -1,0 +1,12 @@
+namePrefix: staging-
+commonLabels:
+  variant: staging
+commonAnnotations:
+  note: Hello, I am Staging!
+bases:
+- ../../base/app1
+- ../../base/app2
+patchesStrategicMerge:
+- app1_deployment.yaml
+- app2_deployment.yaml
+#namespace: staging
