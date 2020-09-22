@@ -9,4 +9,4 @@ spec:
     spec:
       containers:
       - name: the-container
-        image: hello-world:nanoserver-1803
+        image: busybox:1.32
