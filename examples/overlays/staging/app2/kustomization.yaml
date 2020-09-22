@@ -1,11 +1,4 @@
-namePrefix: staging-
-commonLabels:
-  variant: staging
-  org: acmeCorporation
-commonAnnotations:
-  note: Hello, I am staging!
 bases:
-- ../../../base/app1
-#namespace: staging-argo-test
+- ../../../base/app2
 patchesStrategicMerge:
-- map.yaml
+- deployment.yaml
