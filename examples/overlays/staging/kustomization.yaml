@@ -7,4 +7,7 @@ commonAnnotations:
 bases:
 - ../../base/app1
 - ../../base/app2
+resources:
+- app1
+- app2
 
