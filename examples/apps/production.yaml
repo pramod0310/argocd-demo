@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: production
+  name: production2
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     repoURL: 'https://github.com/alexcpn/argocd-demo'
-    path: examples/overlays/production/
+    path: examples/overlays/production_working/
     targetRevision: HEAD
     directory:
       recurse: true
