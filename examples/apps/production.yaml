@@ -12,7 +12,7 @@ spec:
     path: examples/overlays/production_working/
     targetRevision: HEAD
     directory:
-      recurse: true
+      recurse: false
   project: default
   syncPolicy:
     automated:
