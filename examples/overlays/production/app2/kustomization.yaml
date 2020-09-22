@@ -1,11 +1,4 @@
-namePrefix: production-
-commonLabels:
-  variant: production
-  org: acmeCorporation
-commonAnnotations:
-  note: Hello, I am production!
 bases:
 - ../../../base/app2
 patchesStrategicMerge:
 - deployment.yaml
-- app.yaml
