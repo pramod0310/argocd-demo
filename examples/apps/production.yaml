@@ -19,4 +19,4 @@ spec:
       prune: true
       selfHeal: true
   kustomize:
-      version: v3.5.4
+      version: v3.8.2

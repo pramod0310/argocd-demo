@@ -1,4 +1,4 @@
-namePrefix: staging-
+#namePrefix: staging-
 commonLabels:
   variant: staging
 commonAnnotations:
