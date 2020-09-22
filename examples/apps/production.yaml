@@ -18,3 +18,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
+  kustomize:
+      version: v3.5.4
