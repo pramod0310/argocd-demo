@@ -1,9 +1,6 @@
 bases:
 - ../../base/app1
-patchesStrategicMerge:
-- app1_deployment.yaml
----
-bases:
 - ../../base/app2
 patchesStrategicMerge:
+- app1_deployment.yaml
 - app2_deployment.yaml
