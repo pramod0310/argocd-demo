@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app1
+  name: production
   namespace: argocd
 spec:
   destination:
@@ -12,7 +12,7 @@ spec:
     path: examples/overlays/production/
     targetRevision: HEAD
     directory:
-      recurse: false
+      recurse: true
   project: default
   syncPolicy:
     automated:
